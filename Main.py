@@ -23,6 +23,7 @@ class Stack:
             self.items.append(data)
 
     def pop(self):
+        popped = 0
         if not self.is_empty():
             popped = self.items.pop(len(self.items)-1)
         return popped
