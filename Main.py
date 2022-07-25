@@ -29,7 +29,7 @@ class Stack:
 
     def status(self):
        for i in range (0,(len(self.items))):
-          print (self.items[(len(self.items))-(i+1)])
+          print (self.items[(i)])
 
 # Do not change the following code
 size, queries = map(int, input().rstrip().split())
